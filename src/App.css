@@ -1,17 +1,24 @@
 .jumbotron {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: radial-gradient(
+    circle 933px at 51.3% 121.7%,
+    rgba(13, 12, 12, 1) 24.9%,
+    rgba(187, 187, 187, 1) 84.8%
+  );
   color: #fff;
   text-align: center;
   border-radius: 0px;
-  border-bottom: 2px solid orange;
 }
 
 .brand-icon {
-  font-size: 90px;
-  margin: 0px 10px;
-  color: orange;
+  width: 150px;
+  align-items: baseline;
+  font-size: 150px;
+  margin: 0px 20px;
+  color: rgb(255, 238, 0);
 }
-.img-fluid {
-  float: left;
-  width: 30vw;
+#title {
+  font-variant: small-caps;
+}
+.first_letter {
+  color: rgb(255, 238, 0);
 }

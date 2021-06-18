@@ -41,7 +41,6 @@ function App() {
         onInputChange={onInputChange}
         onClickSearch={onClickSearch}
       />
-
       <Recipes recipes={recipes} />
     </div>
   );

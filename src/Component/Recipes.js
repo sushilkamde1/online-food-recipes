@@ -8,7 +8,12 @@ function Recipes(props) {
     <div className="container">
       <div className="card-columns">
         {recipes.map((items) => (
-          <RecipeItems name={items.recipe.label} image={items.recipe.image} />
+          <RecipeItems
+            name={items.recipe.label}
+            image={items.recipe.image}
+            ingredients={items.recipe.ingredientLines}
+            url={items.recipe.shareAs}
+          />
         ))}
       </div>
     </div>
