@@ -1,10 +1,11 @@
 import React from "react";
-import tachyons from "tachyons";
+import "tachyons";
 
 function RecipeItems(props) {
   const { image, name, ingredients, url } = props;
-  console.log(url);
+
   return (
+    // Card Section
     <div className="card text-center bg-light-green br-3">
       <img src={image} className="card-img-top grow" alt="recipe_image" />
       <div className="card-body">
@@ -16,6 +17,7 @@ function RecipeItems(props) {
             </li>
           ))}
         </ul>
+        {/* Click More Button */}
         <a href={url} className="btn btn-primary mt-4" target="_blank">
           More Info
         </a>

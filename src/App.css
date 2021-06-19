@@ -1,24 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
 .jumbotron {
-  background-image: radial-gradient(
-    circle 933px at 51.3% 121.7%,
-    rgba(13, 12, 12, 1) 24.9%,
-    rgba(187, 187, 187, 1) 84.8%
+  background-image: linear-gradient(
+    358.7deg,
+    rgba(42, 136, 157, 1) 1.7%,
+    rgba(122, 197, 214, 1) 51.1%,
+    rgba(211, 232, 242, 1) 95.5%
   );
-  color: #fff;
+  color: rgb(73, 73, 72);
   text-align: center;
   border-radius: 0px;
 }
 
-.brand-icon {
-  width: 150px;
-  align-items: baseline;
-  font-size: 150px;
-  margin: 0px 20px;
-  color: rgb(255, 238, 0);
+/* Image boy */
+#boy {
+  height: 250px;
 }
-#title {
+.title {
   font-variant: small-caps;
-}
-.first_letter {
-  color: rgb(255, 238, 0);
+  font-family: "Comfortaa", cursive;
 }

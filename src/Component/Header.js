@@ -1,14 +1,14 @@
 import React from "react";
+import boy from "../assets/food-boy.png";
 
 function Header(props) {
   const { search, onInputChange, onClickSearch } = props;
 
   return (
+    //Header section
     <div className="jumbotron">
-      <h1 className="display-1">
-        <span className="material-icons brand-icon">chalet</span>Food Recipe
-      </h1>
-
+      <h3 className="display-1 title">Food Recipe</h3>
+      <img src={boy} alt="boy" className="img-fluid" id="boy" />
       <div className="input-group mb-3 w-50 mx-auto">
         <input
           type="text"
