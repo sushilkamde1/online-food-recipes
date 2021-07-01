@@ -6,10 +6,11 @@
 }
 .search {
   width: 100%;
+  font-size: 20px;
   border: 3px solid #fd5e53;
   border-right: none;
   padding: 5px;
-  height: 36px;
+  height: 40px;
   outline: none;
   color: #9dbfaf;
 }
@@ -19,7 +20,7 @@
 }
 .search-btn {
   width: 40px;
-  height: 36px;
+  height: 40px;
   border: 1px solid #fd5e53;
   background: #fd5e53;
   text-align: center;
