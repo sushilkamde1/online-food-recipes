@@ -1,5 +1,6 @@
 import React from "react";
 import boy from "../assets/food-boy.png";
+import "../Style/Header.css";
 
 function Header(props) {
   const { search, onInputChange, onClickSearch } = props;
@@ -10,7 +11,25 @@ function Header(props) {
       <h3 className="display-1 title">Food Recipe</h3>
       <img src={boy} alt="boy" className="img-fluid" id="boy" />
       <div className="input-group mb-3 w-50 mx-auto">
-        <input
+        <div className="container">
+          <div className="search-box">
+            <input
+              type="text"
+              className="search"
+              placeholder="Search Your Recipe"
+              value={search}
+              onChange={onInputChange}
+            />
+            <button
+              type="submit"
+              className="search-btn"
+              onClick={onClickSearch}
+            >
+              <i className="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+        {/* <input
           type="text"
           className="form-control"
           placeholder="Search Your Recipe"
@@ -23,7 +42,7 @@ function Header(props) {
           <button className="btn btn-warning" onClick={onClickSearch}>
             Search
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
